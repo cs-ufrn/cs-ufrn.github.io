@@ -1,1 +1,6 @@
-# In construction
+---
+title: Index
+layout: default
+---
+
+Under construction.
