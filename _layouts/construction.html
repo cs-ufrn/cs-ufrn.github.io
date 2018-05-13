@@ -19,27 +19,34 @@
         <!--<![endif]-->
         <link rel="stylesheet" href="{{ '/css/style.css' | prepend: site.baseurl_root }}">
 
+        <style>
+            #main {
+                background: none;
+                text-align:center;
+            }
+            h1 {
+                color: #333;
+            }
+            p {
+                color: #666;
+            }
+            img {
+                padding-top:10px;
+                padding-bottom:10px;
+            }
+        </style>
+
     </head>
 
     <body>
 
         <div class="pure-g">
             <div class="pure-u-1">
-                <header id="page-header">
-                    <h1>Logo goes here.</h1>
-                </header>
-            </div>
-
-            <div class="pure-u-3-4">
                 <main id="main">
-                    {{ content }}
+                    <img style="width:30%; height:30%;" src="{{ '/images/logo.png' | prepend: site.baseurl_root }}"/>
+                    <h1>Website under construction.</h1> 
+                    <p>Please, check the IEEE CS UFRN <a target="_blank" href="https://www.facebook.com/csufrn/">Facebook page</a> for more information about us!</p>
                 </main>
-            </div>
-
-            <div class="pure-u-1-4">
-                <div id="sidebar">
-                    Sidebar
-                </div>
             </div>
         </div>
 
