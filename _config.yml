@@ -1,1 +1,10 @@
+baseurl: ""
+
 title: IEEE Computer Society Student Chapter at UFRN
+
+plugins:
+  - jekyll-multiple-languages-plugin
+
+languages: ["en", "pt"] 
+
+exclude_from_localizations: ["js", "images", "css"]

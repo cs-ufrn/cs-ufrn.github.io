@@ -1,6 +1,6 @@
 ---
-title: Index
 layout: default
+title: titles.home
 ---
 
 Under construction.
